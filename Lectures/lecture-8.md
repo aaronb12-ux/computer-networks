@@ -41,7 +41,7 @@ cwnd limits how much data can be 'in-flight' at any given time.
 
 <img width="296" height="191" alt="Screenshot 2026-05-07 at 11 29 34 AM" src="https://github.com/user-attachments/assets/42df2f8e-6f60-4ce7-94c2-f45a0c4d0d63" />
 
-**Typically:** lastByteSent - lastByteACKed ≤ min{cwnd, rwnd}
+**Typically:** lastByteSent - lastByteACKed (in-flight data) ≤ min{cwnd, rwnd}
 
 If there is infinite receiver buffer (i.e., rwnd = ∞), then cwnd effectively controls the sending rate.
 
