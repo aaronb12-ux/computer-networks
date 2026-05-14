@@ -18,6 +18,7 @@ Packets are dropped if buffer is full.
 
 <img width="391" height="251" alt="Screenshot 2026-05-11 at 4 11 15 PM" src="https://github.com/user-attachments/assets/599ac850-8173-4b0d-9100-5efc6aced944" />
 
+- Buffer management decides which packets to drop or accept
 - Link acts as a server transmitting packets
 - Transmission rate is limited by link bandwidth 'R'
 
